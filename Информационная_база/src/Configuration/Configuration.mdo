@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03e8c899-0000-4207-8c0a-c137228c6b1a">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7b287d58-08c5-44b6-b0eb-10fa2f6fd1a7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="daaf1d0f-8e40-49e0-ae56-b2c27699e582"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a8fe57f2-621f-4193-9ef3-2daa75d5862c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="71d95b2e-fe23-45c7-a79b-5ea8f6633f17"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f81e6f5d-2fe6-4587-8501-8dd0a91b0fa9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f311982f-7657-44cb-9121-baeca8689f45"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="1c0c0545-3f28-44fa-97d0-a5561b311f44">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Справочник</catalogs>
+  <documents>Document.Документ</documents>
+</mdclass:Configuration>

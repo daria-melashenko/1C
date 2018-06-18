@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="090f3326-6946-4d95-ae9e-ff7387d71e31">
+  <producedTypes>
+    <objectType typeId="e96f281d-8f6e-4600-9bad-db70a6bf8b50" valueTypeId="9ed4680d-d8da-459c-b041-7f43a6c8d739"/>
+    <refType typeId="e1e0dfc1-543f-4e9e-a551-c7d82551e892" valueTypeId="7f0f14fe-b8b6-496b-b5d1-297452417f40"/>
+    <selectionType typeId="e8cfac34-e527-4837-8d56-6d6f7a9171ef" valueTypeId="ae3e62fb-33d8-40ae-a4fa-16e969074813"/>
+    <listType typeId="c284aaea-8680-46d3-a017-be1b752ee30c" valueTypeId="076af88b-29b8-4976-ab82-1518354005ad"/>
+    <managerType typeId="a9a0579e-7a75-4854-aca5-3a5fce3d2683" valueTypeId="f895c740-32a5-4a15-98a8-5003171eed1e"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="83c89ce1-b1dc-4f52-80e3-9fc395fed22e">
+    <name>ШтрихКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрих код</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
